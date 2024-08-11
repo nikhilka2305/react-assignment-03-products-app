@@ -3,3 +3,14 @@
 	line-height: 1.5;
 	font-weight: 400;
 }
+
+@font-face {
+	font-family: VectorHeavy;
+	src: local("VectorHeavy"), url("./assets/Vector-Heavy.ttf"),
+		format("truetype");
+}
+
+body {
+	background-color: #f6fb7a !important;
+	font-family: "VectorHeavy", "sans-seriff" !important;
+}
